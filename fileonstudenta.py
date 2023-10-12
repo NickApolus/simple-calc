@@ -1,1 +1,0 @@
-print('student student student student')
