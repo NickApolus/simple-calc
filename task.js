@@ -7,6 +7,9 @@ let signMath = document.querySelector('#sign');
 let btn = document.querySelector('.btn');
 let fieldAnswer = document.querySelector('#answer');
 // Создаю неинициализированную переменную
+async function newMethodName () {
+    
+}
 let answer;
 // Событие клика кнопки "отправить" в калькуляторе
 btn.addEventListener('click', function(){
