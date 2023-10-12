@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(49, 48, 48);
+            color: aliceblue;
+        }
+        .center{
+            margin-top: 30%;
+            max-width: 100%;
+            margin:0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: 30%;
+        }
+        .btn{
+            width: 100px;
+            height: 30px;
+            color: aliceblue;
+            background-color: cornflowerblue;
+            border-radius: 20px;
+            border: 0px solid cornflowerblue;
+            padding: 10px;
+            line-height: 10px;
+        }
+        input{
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        #answer{
+            color: red;
+        }
+        p{
+            text-align: center;
+        }
+        .block{
+            margin-top: 35px;
+        }
+        .possitive{
+            color: greenyellow!important;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="center">
+        <div class="block">
+            <input id="x" value="" type="number" placeholder="">
+        </div>
+        <div class="block">
+            <input id="y" value="" type="number" placeholder="">
+        </div>
+        <div class="block">
+            <input id="sign" type="text" placeholder="+ - * /">
+        </div>
+        <div class="block">
+            <button type="button" class="btn">Send</button>
+        </div>
+    </form>
+    <p>Ответ: <span id="answer"></span></p>
+    <script src="task.js"></script>
+</body>
+</html>
